@@ -1,13 +1,15 @@
 @font-face {
     font-family: "GilroyBold";
-    src: url(../asset/fonts/Gilroy-ExtraBold.woff) format(woff),
-         url(../asset/fonts/Gilroy-ExtraBold.woff2) format(woff2);
+    src: url('../asset/fonts/Gilroy-ExtraBold.woff') format('woff');
+    font-weight: bold;
+    font-style: normal;
+    font-display: swap;
 }
 
 @font-face {
     font-family: "GilroyMedium";
-    src: url(../asset/fonts/Gilroy-MediumBold.woff) format(woff),
-         url(../asset/fonts/Gilroy-MediumBold.woff2) format(woff2);
+    src: url("/html/asset/fonts/SFProDisplay-Medium.woff") format(woff),
+         url("/html/asset/fonts/SFProDisplay-Medium.woff2") format(woff2);
 }
 
 @font-face {
@@ -15,3 +17,51 @@
     src: url(../asset/fonts/Gilroy-Regular.woff) format(woff),
          url(../asset/fonts/Gilroy-Regularwoff2) format(woff2);
 }
+
+body {
+    margin: 0%;
+}
+
+.navBar {
+    position: relative;
+    padding: 0% 0% 2%;
+    font-family: "GilroyBold";
+    border-radius: 20px;
+}
+
+.img {
+    width: 100%;
+}
+.active {
+    position: absolute;
+    top: 15%;
+    left: 10%;
+    text-decoration: none;
+    font-size: 200px;
+    color: white;
+}
+
+#list1 {
+    position: absolute;
+    top: 5%;
+    right: 60%;
+    text-decoration: none;
+    color: white;
+}
+
+#list2 {
+    position: absolute;
+    top: 5%;
+    right: 50%;
+    text-decoration: none;
+    color: white;
+}
+
+#list3 {
+    position: absolute;
+    top: 5%;
+    right: 40%;
+    text-decoration: none;
+    color: white;
+}
+
