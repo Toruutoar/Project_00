@@ -1,22 +1,183 @@
 @font-face {
-    font-family: "GilroyBold";
-    src: url('../asset/fonts/Gilroy-ExtraBold.woff') format('woff');
+    font-family: 'GilroyItalic';
+    src: url('../asset/fonts/Gilroy-BlackItalic.woff2') format('woff2'),
+        url('../asset/fonts/Gilroy-BlackItalic.woff') format('woff');
+    font-weight: 900;
+    font-style: italic;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'GilroyBlack';
+    src: url('../asset/fonts/Gilroy-Black.woff2') format('woff2'),
+        url('../asset/fonts/Gilroy-Black.woff') format('woff');
+    font-weight: 900;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'GilroyBold';
+    src: url('../asset/fonts/Gilroy-Bold.woff2') format('woff2'),
+        url('../asset/fonts/Gilroy-Bold.woff') format('woff');
     font-weight: bold;
     font-style: normal;
     font-display: swap;
 }
 
 @font-face {
-    font-family: "GilroyMedium";
-    src: url("/html/asset/fonts/SFProDisplay-Medium.woff") format(woff),
-         url("/html/asset/fonts/SFProDisplay-Medium.woff2") format(woff2);
+    font-family: 'Gilroy';
+    src: url('Gilroy-Heavy.woff2') format('woff2'),
+        url('Gilroy-Heavy.woff') format('woff');
+    font-weight: 900;
+    font-style: normal;
+    font-display: swap;
 }
 
 @font-face {
-    font-family: "GilroyRegular";
-    src: url(../asset/fonts/Gilroy-Regular.woff) format(woff),
-         url(../asset/fonts/Gilroy-Regularwoff2) format(woff2);
+    font-family: 'Gilroy';
+    src: url('Gilroy-BoldItalic.woff2') format('woff2'),
+        url('Gilroy-BoldItalic.woff') format('woff');
+    font-weight: bold;
+    font-style: italic;
+    font-display: swap;
 }
+
+@font-face {
+    font-family: 'Gilroy';
+    src: url('Gilroy-ExtraBoldItalic.woff2') format('woff2'),
+        url('Gilroy-ExtraBoldItalic.woff') format('woff');
+    font-weight: bold;
+    font-style: italic;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'GilroyExtraBold';
+    src: url('../asset/fonts/Gilroy-ExtraBold.woff2') format('woff2'),
+        url('../asset/fonts/Gilroy-ExtraBold.woff') format('woff');
+    font-weight: bold;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'GilroyRegular';
+    src: url('Gilroy-Regular.woff2') format('woff2'),
+        url('Gilroy-Regular.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'GilroyLightItalic';
+    src: url('Gilroy-LightItalic.woff2') format('woff2'),
+        url('Gilroy-LightItalic.woff') format('woff');
+    font-weight: 300;
+    font-style: italic;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'GilroyMediumItalic';
+    src: url('Gilroy-MediumItalic.woff2') format('woff2'),
+        url('Gilroy-MediumItalic.woff') format('woff');
+    font-weight: 500;
+    font-style: italic;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'GilroyHeavyItalic';
+    src: url('Gilroy-HeavyItalic.woff2') format('woff2'),
+        url('Gilroy-HeavyItalic.woff') format('woff');
+    font-weight: 900;
+    font-style: italic;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'GilroyMedium';
+    src: url('../asset/fonts/Gilroy-Medium.woff2') format('woff2'),
+        url('../asset/fonts/Gilroy-Medium.woff') format('woff');
+    font-weight: 500;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'GilroyLight';
+    src: url('Gilroy-Light.woff2') format('woff2'),
+        url('Gilroy-Light.woff') format('woff');
+    font-weight: 300;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'GilroyThin';
+    src: url('Gilroy-Thin.woff2') format('woff2'),
+        url('Gilroy-Thin.woff') format('woff');
+    font-weight: 100;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'GilroySemiBoldItalic';
+    src: url('Gilroy-SemiBoldItalic.woff2') format('woff2'),
+        url('Gilroy-SemiBoldItalic.woff') format('woff');
+    font-weight: 600;
+    font-style: italic;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'GilroyRegularItalic';
+    src: url('Gilroy-RegularItalic.woff2') format('woff2'),
+        url('Gilroy-RegularItalic.woff') format('woff');
+    font-weight: normal;
+    font-style: italic;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'GilroyThinItalic';
+    src: url('Gilroy-ThinItalic.woff2') format('woff2'),
+        url('Gilroy-ThinItalic.woff') format('woff');
+    font-weight: 100;
+    font-style: italic;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'GilroySemiBold';
+    src: url('../asset/fonts/Gilroy-SemiBold.woff2') format('woff2'),
+        url('../asset/fonts/Gilroy-SemiBold.woff') format('woff');
+    font-weight: 600;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'GilroyUltraLightItalic';
+    src: url('Gilroy-UltraLightItalic.woff2') format('woff2'),
+        url('Gilroy-UltraLightItalic.woff') format('woff');
+    font-weight: 200;
+    font-style: italic;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'GilroyUltraLight';
+    src: url('Gilroy-UltraLight.woff2') format('woff2'),
+        url('Gilroy-UltraLight.woff') format('woff');
+    font-weight: 200;
+    font-style: normal;
+    font-display: swap;
+}
+
 
 body {
     margin: 0%;
@@ -25,13 +186,13 @@ body {
 .navBar {
     position: relative;
     padding: 0% 0% 2%;
-    font-family: "GilroyBold";
-    border-radius: 20px;
+    font-family: "GilroyExtraBold";
 }
 
 .img {
     width: 100%;
 }
+
 .active {
     position: absolute;
     top: 15%;
@@ -65,3 +226,39 @@ body {
     color: white;
 }
 
+#img2 {
+    padding: 10% 0% 0%;
+    max-width: 85%;
+    height: auto;
+}
+
+#des1 {
+    font-family: "GilroyExtraBold";
+    position: absolute;
+    top: 180%;
+    left: 10%;
+    text-decoration: none;
+    font-size: 200px;
+    color: white;
+}
+
+#des2 {
+    width: 60%;
+    height: auto;
+    padding-bottom: 20%;
+    font-family: "GilroySemiBold";
+    position: absolute;
+    top: 220%;
+    left: 10%;
+    text-decoration: none;
+    font-size: 30px;
+    color: white;
+}
+
+#awareness {
+    width: 100%;
+    padding-top: 3%;
+    padding-left: 2%;
+    padding-bottom: 3%;
+    background-color: blue;
+}
