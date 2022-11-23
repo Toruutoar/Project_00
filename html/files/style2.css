@@ -200,28 +200,27 @@ body {
     color: white;
 }
 
-.imgDescription {
-    padding: 2% 4% 10%;
-}
-
 .img {
+    margin: 2% 2% 2%;
     width: 15%;
     box-shadow: rgba(0, 0, 0, 0.16) 0px 1px 4px;
     border-radius: 20px;
-    padding-left: 5%;
-    padding-top: 2%;
+    padding: 1% 1% 1%;
     height: auto;
 }
 
 .des {
+    display: block;
     float: right;
-    padding-top: 2%;
-    padding-right: 65%;
+    margin-top: 5%;
+    margin-right: 65%;
     font-family: "GilroyMedium";
 }
 
 .des1 {
+    display: block;
     float: right;
-    padding-right: 69.5%;
+    margin-right: 70%;
+    margin-top: -10%;
     font-family: "GilroyMedium";
 }
